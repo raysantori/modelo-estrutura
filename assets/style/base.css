@@ -1,0 +1,68 @@
+/*redefinir**********/
+*{
+    padding: 0; margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+/*identidade visual**********/
+/*ícones*/
+
+/*tipografia*/
+
+:root{
+    /*paleta de cores*/
+    --cor-primaria:;
+    --cor-secundaria:;
+    --cor-fundo:rgb(238, 238, 238);
+    --cor-sobreposta:rgb(255, 255, 255);
+    --cor-conteudo-destaque:rgb(19, 19, 19);
+    --cor-conteudo:rgb(29, 29, 29);
+
+    /*tipografia*/
+    --fonte-destaque: ;
+    --fonte-conteudo-destaque: ;
+    --fonte-conteudo: ;
+}
+
+/*arquitetura base**********/
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: var(--cor-fundo);
+    font-family: var(--fonte-conteudo);
+    font-size: 16px;
+}
+
+/*seletor de texto**********/
+::selection{
+    background-color: var(--cor-primaria);
+    color: var(--cor-conteudo);
+}
+
+/*barra de rolagem**********/
+::-webkit-scrollbar{
+    width: 8px; height: 8px;
+}
+
+::-webkit-scrollbar-track,::-webkit-scrollbar-thumb{
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: var(--cor-primaria);
+}
+
+/*marcação de texto**********/
+
+/*títulos*/
+
+/*botões*/
+
+/*inputs*/
