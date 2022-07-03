@@ -1,3 +1,5 @@
+@import url(style.css);
+
 /*redefinir**********/
 *{
     padding: 0; margin: 0;
@@ -66,3 +68,15 @@ body{
 /*botões*/
 
 /*inputs*/
+
+/*rodapé***********/
+footer{
+    /*background-color: var(--cor-sobreposta);*/
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+#copyright{
+    text-align: center;
+    text-transform: uppercase;
+}
